@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "728371140867",
+    "project_id": "assistant-econodrive",
+    "storage_bucket": "assistant-econodrive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728371140867:android:f6f0d4691d948ee9b77136",
+        "android_client_info": {
+          "package_name": "by.econodrive.econodriveassistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBWMlvvIaKzsYRl9w7R7ABYrAn4-jF7UU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

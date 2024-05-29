@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">EconoDrive Assistant</string>
+    <string name="firstname">EconoDrive</string>
+    <string name="secname">assistant</string>
+    <string name="welcomeback">Добро пожаловать!</string>
+    <string name="pleaselogin">Выполните вход для продолжения</string>
+    <string name="login">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="forgetpwd">Забыли пароль?</string>
+    <string name="register">Новый пользователь? Регистрация</string>
+    <string name="enter">Войти</string>
+    <string name="newuser">Новый пользователь</string>
+    <string name="email">Почта</string>
+    <string name="reg">Регистрация</string>
+    <string name="alrdhv">Уже зарегестрированы?</string>
+    <string-array name="expense_types">
+            <item>Заправка</item>
+            <item>Ремонт</item>
+            <item>Замена масла</item>
+            <item>Страховка</item>
+            <item>Мойка</item>
+            <item>Шиномонтаж</item>
+    </string-array>
+
+</resources>

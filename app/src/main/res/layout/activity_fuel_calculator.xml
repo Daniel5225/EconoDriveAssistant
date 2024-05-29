@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="30dp"
+    android:paddingHorizontal="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/green"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/logo_calc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/droid_sans_bold"
+            android:hint="Калькулятор расхода топлива"
+            android:textAlignment="center"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/distance_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Расстояние (км)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/fuel_consumption_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Средний расход (л/100 км)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/fuel_price_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Цена за литр топлива (руб.)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Рассчитать"
+        android:layout_marginVertical="15dp"/>
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Результат"
+        android:textSize="18sp"
+        android:visibility="gone"/>
+</LinearLayout>

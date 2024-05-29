@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/logo_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/green"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/droid_sans_bold"
+            android:hint="Редактирование записи"
+            android:textAlignment="center"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/mileage_edit_text"
+        android:layout_below="@id/logo_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Пробег (км)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/date_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mileage_edit_text"
+        android:hint="Дата"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <EditText
+        android:id="@+id/volume_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_edit_text"
+        android:layout_marginTop="16dp"
+        android:hint="Объем"
+        android:minHeight="48dp"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/price_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/volume_edit_text"
+        android:layout_marginTop="16dp"
+        android:hint="Цена"
+        android:minHeight="48dp"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/save_changes_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сохранить изменения"
+        android:layout_below="@id/price_edit_text"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:backgroundTint="@color/lred"
+        android:id="@+id/delete_entry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Удалить запись"
+        android:layout_below="@id/save_changes_button"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
